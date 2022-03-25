@@ -9,9 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^1.8.6",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@ethersproject/units": "^5.6.0",
+    "@web3-react/core": "^8.0.20-beta.0",
+    "@web3-react/metamask": "^8.0.16-beta.0",
+    "framer-motion": "^6.2.8",
+    "i": "^0.3.7",
     "next": "12.1.0",
+    "npm": "^8.5.5",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-use-clipboard": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "17.0.23",
