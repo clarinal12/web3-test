@@ -10,7 +10,9 @@ const Home: NextPage = () => {
   const { isOpen, onClose, onOpen } = useDisclosure();
 
   // useEffect(() => {
-  //   void metaMask.connectEagerly();
+  //   if (metaMask) {
+  //     void metaMask.activate();
+  //   }
   // }, []);
 
   return (
