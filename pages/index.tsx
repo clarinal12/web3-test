@@ -9,9 +9,9 @@ import { metaMask } from "connectors/metamask";
 const Home: NextPage = () => {
   const { isOpen, onClose, onOpen } = useDisclosure();
 
-  useEffect(() => {
-    void metaMask.connectEagerly();
-  }, []);
+  // useEffect(() => {
+  //   void metaMask.connectEagerly();
+  // }, []);
 
   return (
     <>
